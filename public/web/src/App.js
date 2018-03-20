@@ -22,6 +22,13 @@ import logo                   from '../../avatar/persona/mark.png'
 import config                 from '../../../config'
 import './App.css';
 
+//Importing route components
+import {BrowserRouter as Router,
+        Route,
+        Link,
+        Switch,
+        Redirect}             from 'react-router-dom';
+
 // chatwidget elements
 let apiProfile = "http://localhost:3000"
 let user = "+12123334444"
